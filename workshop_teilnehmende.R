@@ -146,7 +146,7 @@ excel_sheets(xlsx_pfad) # Welche Blätter gibt es?
 read_excel(xlsx_pfad, sheet = "Codebook")
 
 # Gerüst für das Datenblatt:
-# sportstudie_xlsx <- read_excel(
+# sportstudie_raw <- read_excel(
 #   xlsx_pfad,
 #   sheet = "___",
 #   skip  = ___,            # 💡 In welcher Zeile beginnt die Tabelle? (Datei öffnen!)
